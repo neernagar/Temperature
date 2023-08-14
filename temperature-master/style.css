@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Roboto+Mono:wght@500&family=Style+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Style Script', 'cursive';
+}
+
+.container{
+    width: 450px;
+    background-color: #fff;
+    padding: 70px 50px;
+    box-shadow:0 20px 25px rgba(0,0,0,0.25) ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(155, 185, 18);
+    display: flex;
+}
+
+.cf{
+    width: 45%;   
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+
+}
+.footer{
+    padding: 40px;
+    background-color:#fff;
+    box-shadow: 0 20px 25px;
+}
+.footer .social {
+text-align: center;
+padding-bottom: 5px;
+color: #4b4c4d;
+align-items: center;
+}
+
